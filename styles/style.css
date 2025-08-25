@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+
+*{
+    margin: 0;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 1);
+    border: none;
+    padding: 12px 18px;
+    cursor: pointer;
+}
+
+
+/* hero section style start  */
+#hero{
+    height: 615px;
+    background-image: linear-gradient(180.00deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+#hero .hero-content{
+    width: 685px;
+    text-align: center;
+}
+#hero .hero-content .sub-title{
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+#hero .hero-content .hero-title{
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+#hero .hero-content .description{
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 22px;
+}
+/* hero section style end  */
+
+/* card section style start  */
+#card-box{
+    width: 884px;
+    margin: 100px auto;
+    /* display: none; */
+}
+#card-box .sub-title{
+    color: rgba(16, 16, 16, 1);
+    opacity: 0.6;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+#card-box .title{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.card .card-img{
+    width: 250px;
+}
+.card .card-img img{
+    width: 100%;
+}
+.card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .shop{
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+#card-box h1{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box p{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* card section style end  */
+
+
+/* about section style start  */
+#about{
+    width: 100%;
+    margin: 100px auto;
+    /* display: none; */
+}
+
+.about-container{
+    display: flex;
+}
+#about .about-left{
+    width: 50%;
+} 
+#about .about-left img{
+    width: 100%;
+}
+#about .about-right{
+    width: 50%;
+    font-family: Work Sans;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#about .about-right h3{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 30px;
+}
+#about .about-right p{
+    color: rgba(16, 16, 16, 1);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 20px 0;
+}
+#about .about-right h4{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.social-icon{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social-icon .fb{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+/* about section style end  */
+#social{
+    background-image: url(../assets/social-bg.png);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#social .social-content h3{
+       color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 400px;
+}
+#social .social-content p{
+    color: rgba(16, 16, 16, 1);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 20px 0;
+}
+#social .social-content h4{
+      color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 15px 0;
+}
